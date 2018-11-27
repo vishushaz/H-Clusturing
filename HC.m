@@ -1,4 +1,4 @@
-Data = readtable('C:\Users\vishu\Desktop\PhD\ML\data\Machine Learning for Data Science using MATLAB\C&D\Machine Learning for Data Science using MATLAB\Clustering\K-means\Mall_Customers.csv');
+Data = readtable('C:\....\Mall_Customers.csv');
 
 td_AnnualIncome = (Data.AnnualIncome - mean(Data.AnnualIncome))/std(Data.AnnualIncome);
 Data.AnnualIncome
